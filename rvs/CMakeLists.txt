@@ -61,7 +61,7 @@ set ( PROJECT_LINK_LIBS libdl.so )
 include_directories(include)
 
 ## define source files
-set(SOURCES src/rvs.cpp)
+set(SOURCES src/rvs.cpp src/rvsmodule.cpp src/rvsif0.cpp src/rvsif1.cpp)
 
 ## define target
 add_executable(${RVS_TARGET} ${SOURCES})
